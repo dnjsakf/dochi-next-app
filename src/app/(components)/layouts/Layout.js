@@ -15,11 +15,6 @@ const StyledLayout = styled(Layout)`
 `;
 
 const MainLayout = ({ children }) => {
-
-  // const {
-  //   token: { colorBgContainer, borderRadiusLG },
-  // } = theme.useToken();
-
   return (
     <StyledLayout>
       <GlobalStyle />

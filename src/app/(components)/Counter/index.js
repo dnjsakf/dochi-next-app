@@ -4,8 +4,8 @@ import { useState, useEffect } from 'react';
 import { Button } from 'antd';
 import { PlusCircleFilled, MinusCircleFilled, RestFilled } from '@ant-design/icons';
 
-import { useAppDispatch } from '@/app/store/hooks';
-import { initializeCount, increment, decrement, selectCount } from "../../store/counterSlice";
+import { useAppDispatch } from '../../(store)/hooks';
+import { initializeCount, increment, decrement, selectCount } from "../../(store)/counterSlice";
 
 const Counter = () => {
 

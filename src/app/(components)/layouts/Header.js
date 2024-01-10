@@ -7,8 +7,8 @@ import {
 } from '@ant-design/icons';
 import { Layout, Button, theme } from 'antd';
 
-import { useAppDispatch } from '@/app/store/hooks';
-import { toggleCollapsed, selectCollapsed } from "../../store/sideBarSlice";
+import { useAppDispatch } from '../../(store)/hooks';
+import { toggleCollapsed, selectCollapsed } from "../../(store)/sideBarSlice";
 
 const Header = ( props ) => {
 

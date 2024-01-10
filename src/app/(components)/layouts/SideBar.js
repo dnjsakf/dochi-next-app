@@ -8,7 +8,7 @@ import {
 } from '@ant-design/icons';
 import { Layout, Menu } from 'antd';
 
-import { selectCollapsed } from "../../store/sideBarSlice";
+import { selectCollapsed } from "../../(store)/sideBarSlice";
 
 const SideBar = ( props ) => {
   
